@@ -1,0 +1,33 @@
+---
+# 语言
+Language: Cpp
+
+# 访问说明符的偏移(public private)
+AccessModifierOffset: -4
+
+# 缩进宽度
+IndentWidth: 4
+
+# 每行字符的限制，0表示没有限制
+ColumnLimit: 100
+
+# 指针的*的挨着哪边
+PointerAlignment: Left
+
+# 允许短的块放在同一行
+AllowShortBlocksOnASingleLine: false
+# 允许短的case标签放在同一行
+AllowShortCaseLabelsOnASingleLine:  false
+# 允许短的函数放在同一行: None, InlineOnly(定义在类中), Empty(空函数), Inline(定义在类中，空函数), All
+AllowShortFunctionsOnASingleLine: Empty
+# 允许短的if语句保持在同一行
+AllowShortIfStatementsOnASingleLine: false
+# 允许短的循环保持在同一行
+AllowShortLoopsOnASingleLine: false
+
+# tab键盘的宽度
+TabWidth: 4
+UseTab: Never
+
+# 去除C++11的列表初始化的大括号{后和}前的空格
+Cpp11BracedListStyle: true

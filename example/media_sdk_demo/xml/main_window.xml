@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1200,700" mininfo="1200,700" maxinfo="1200,700" caption="0,0,0,32" sizebox="4,4,4,4">
+ <Font id="0" name="宋体" size="18" bold="false" underline="false" italic="false" />
+ <Font id="1" name="宋体" size="12"/>
+ <Font id="2" name="宋体" size="9" bold="false" italic="false" />
+ <Default shared="true" name="Button" value=" height=&quot;30&quot; width=&quot;100&quot; normalimage=&quot;file=&apos;../../resources/common/button_normal.png&apos;&quot; hotimage=&quot;file=&apos;../../resources/common/button_hover.png&apos;&quot; pushedimage=&quot;file=&apos;../../resources/common/button_pushed.png&apos;&quot; font=&quot;0&quot;" />
+    <VerticalLayout bkcolor="#FFDDDDDD">
+        <!-- 客户区 -->
+        <VerticalLayout>
+            <VerticalLayout pos="0,0,1200,600">
+                <CWndUI name="renderWindow"/>
+            </VerticalLayout>
+
+            <VerticalLayout pos="0,600,1200,700">
+                <Button name="btnOpen" text="开启视频" float="true" pos="50,10,0,0" width="130" height="30" />
+                <Button name="btnVideoDevice" text="视频设备" float="true" pos="200,10,0,0" width="130" height="30" />
+                <Button name="btnAudioDevice" text="音频设备" float="true" pos="350,10,0,0" width="130" height="30" />
+                <Button name="btnScreenShare" text="屏幕共享" float="true" pos="500,10,0,0" width="130" height="30" />
+                <Button name="btnScreenStop"  text="停止共享" float="true" pos="650,10,0,0" width="130" height="30" />
+                <Button name="btnSocket" text="网络发送" float="true" pos="800,10,0,0" width="130" height="30" />
+                <Button name="btnQuit" text="退出程序" float="true" pos="950,10,0,0" width="130" height="30" />
+            </VerticalLayout>
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

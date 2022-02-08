@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="600,200" caption="0,0,0,32" sizebox="4,4,4,4">
+ <Font id="0" name="宋体" size="17" bold="false" underline="false" italic="false" />
+ <Font id="1" name="宋体" size="12"/>
+ <Font id="2" name="宋体" size="9" bold="false" italic="false" />
+ <Default shared="true" name="Button" value=" height=&quot;30&quot; width=&quot;100&quot; normalimage=&quot;file=&apos;../../resources/common/button_normal.png&apos;&quot; hotimage=&quot;file=&apos;../../resources/common/button_hover.png&apos;&quot; pushedimage=&quot;file=&apos;../../resources/common/button_pushed.png&apos;&quot; font=&quot;0&quot;" />
+    <VerticalLayout bkcolor="#FFDDDDDD">
+        <!-- 客户区 -->
+        <VerticalLayout name="deviceWindow">
+            
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

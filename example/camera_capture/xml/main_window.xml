@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="900,600" mininfo="900,600" maxinfo="900,600" caption="0,0,0,32" sizebox="4,4,4,4">
+ <Font id="0" name="宋体" size="18" bold="false" underline="false" italic="false" />
+ <Font id="1" name="宋体" size="12"/>
+ <Font id="2" name="宋体" size="9" bold="false" italic="false" />
+ <Default shared="true" name="Button" value=" height=&quot;30&quot; width=&quot;100&quot; normalimage=&quot;file=&apos;../../resources/common/button_normal.png&apos;&quot; hotimage=&quot;file=&apos;../../resources/common/button_hover.png&apos;&quot; pushedimage=&quot;file=&apos;../../resources/common/button_pushed.png&apos;&quot; font=&quot;0&quot;" />
+    <VerticalLayout bkcolor="#FFDDDDDD">
+        <!-- 客户区 -->
+        <VerticalLayout>
+            <VerticalLayout pos="0,0,900,500">
+                <CWndUI name="renderWindow"/>
+            </VerticalLayout>
+
+            <VerticalLayout pos="0,500,900,100">
+                <Button name="btnOpen" text="开启视频" float="true" pos="150,10,0,0" width="130" height="30" />
+                <Button name="btnClose" text="关闭视频" float="true" pos="300,10,0,0" width="130" height="30" />
+
+                <Button name="btnChoose" text="设备选择" float="true" pos="450,10,0,0" width="130" height="30" />
+                <Button name="btnQuit" text="退出" float="true" pos="600,10,0,0" width="130" height="30" />
+            </VerticalLayout>
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

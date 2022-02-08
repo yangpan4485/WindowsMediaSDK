@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="500,260" mininfo="500,260" maxinfo="500,260" caption="0,0,0,32" sizebox="4,4,4,4">
+ <Font id="0" name="宋体" size="18" bold="false" underline="false" italic="false" />
+ <Font id="1" name="宋体" size="12"/>
+ <Font id="2" name="宋体" size="9" bold="false" italic="false" />
+ <Default shared="true" name="Button" value=" height=&quot;30&quot; width=&quot;100&quot; normalimage=&quot;file=&apos;../../resources/common/button_normal.png&apos;&quot; hotimage=&quot;file=&apos;../../resources/common/button_hover.png&apos;&quot; pushedimage=&quot;file=&apos;../../resources/common/button_pushed.png&apos;&quot; font=&quot;0&quot;" />
+    <VerticalLayout bkcolor="#FFDDDDDD">
+        <!-- 客户区 -->
+        <VerticalLayout>
+            <Label name="labelIp" text="IP: " float="true" pos="50,35,0,0" width="85" height="40" normaltextcolor="white" font="0" />
+            <Label name="labelPort" text="端口: " float="true" pos="50,90,0,0" width="85" height="40" normaltextcolor="white" font="0" />
+            <Edit name="ipEdit" text="10.94.84.99" float="true" pos="120,40,0,0" width="300" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Edit name="portEdit" text="32786" float="true" pos="120,95,0,0" width="300" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Button name="btnConnect" text="连接" float="true" pos="100,150,0,0" width="130" height="30" />
+            <Button name="btnClose" text="退出" float="true" pos="270,150,0,0" width="130" height="30" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

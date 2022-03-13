@@ -249,7 +249,7 @@ void MainWindow::CreateVideoDeviceWindow() {
     }
     int count = video_devices_.size();
     int width = 600;
-    int height = count * 50 + 70;
+    int height = count * 50 + 80;
     video_device_window_.reset(new VideoDeviceWindow());
     video_device_window_->SetVideoDeviceCallback([&](const std::string& device_id) {
         video_device_id_ = device_id;
@@ -285,7 +285,7 @@ void MainWindow::CreateAudioDeviceWindow() {
     int record_count = record_audio_devices_.size();
 
     int width = 600;
-    int height = (playback_count + record_count) * 50 + 2 * 60;
+    int height = (playback_count + record_count) * 50 + 2 * 80;
     audio_device_window_.reset(new AudioDeviceWindow());
     audio_device_window_->SetAudioDevies(playout_audio_devices_, record_audio_devices_);
     // audio_device_window_->SetCurrentAudioDevice(playout_audio_device_id_,

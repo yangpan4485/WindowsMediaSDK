@@ -9,6 +9,7 @@
 #include <mmdeviceapi.h>
 #include <wrl/client.h>
 #include <functional>
+#include <memory>
 #include "audio_common.h"
 
 class EndpointVolumeCallback;

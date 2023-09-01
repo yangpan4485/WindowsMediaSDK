@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include <vector>
+#include <memory>
 
 #include "audio_common.h"
 #include "audio_event_handler.h"
